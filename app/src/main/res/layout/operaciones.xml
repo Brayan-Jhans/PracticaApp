@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+    <EditText
+        android:id="@+id/editTextNumber1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Ingrese el número 1" />
+
+    <EditText
+        android:id="@+id/editTextNumber2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Ingrese el número 2" />
+
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="suma"
+        android:onClick="submitNumbers" />
+    <Button
+        android:id="@+id/buttonSubmit1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="resta"
+        android:onClick="submitNumbers" />
+    <Button
+        android:id="@+id/buttonSubmit2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="multiplicacion"
+        android:onClick="submitNumbers" />
+    <Button
+        android:id="@+id/buttonSubmit3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="division"
+        android:onClick="submitNumbers" />
+
+</LinearLayout>
